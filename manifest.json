@@ -6,14 +6,19 @@
   "description": "Read time in quotations.",
 
   "icons": {
-    "48": "icons/border-48.pngOR_SVG",
-    "96": "icons/border-96.png"
+    "48": "icons/icon48.png"
   },
 
   "permissions": [
     "http://himawari8.nict.go.jp/img/D531106/*",
-    "http://himawari8-dl.nict.go.jp/himawari8/img/D531106/latest.json"
+    "http://himawari8-dl.nict.go.jp/himawari8/img/D531106/latest.json",
+    "storage",
+    "unlimitedStorage"
   ],
+
+  "background": {
+    "page": "src/background.html"
+  },
 
   "chrome_url_overrides": {
     "newtab": "src/newtab.html"

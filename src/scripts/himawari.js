@@ -1,6 +1,6 @@
 "use strict";
 
-async function get() {
+async function downloadLatestTiles() {
     const
         LEVEL = 4,
         WIDTH = 550,
@@ -23,11 +23,7 @@ async function get() {
     const data = await Promise.all(promises);
     console.log("all downloaded!", data);
 
-    for (let Y of Array(4).keys()) {
-        for (let X of Array(4).keys()) {
-            document.querySelector("div#e_" + X + "_" + Y + " img").setAttribute("src", await encode(data[Y * 4 + X]));
-        }
-    }
+    return data;
 }
 
 
@@ -42,7 +38,7 @@ async function calcDate() {
     else if (offset > +10 * 60) { offset = +10 * 60; }
 
     // todo: FOR TESTING AT NIGHT
-    return dateAdd(latest, "minute", 0);
+    // return dateAdd(latest, "minute", 0);
     return dateAdd(latest, "minute", offset - 10);  // UTC+10:00 is the time zone that Himawari is over.
 }
 
