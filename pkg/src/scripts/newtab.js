@@ -2,7 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", function () {
     chrome.storage.onChanged.addListener(function (changes, areaName) {
-        if (areaName === "local" && "tiles" in changes) {
+        if (areaName === "local" && "earthData" in changes) {
             redraw();
         }
     });
@@ -39,21 +39,15 @@ function clockLoop() {
 
 
 function redraw() {
-    chrome.storage.local.get("tiles", function ({tiles}) {
-        if (tiles === undefined) {
-            // Tiles are not downloaded yet...
-            console.warn("Tiles are not downloaded yet!");
+    chrome.storage.local.get("earthData", function ({earthData}) {
+        if (earthData === undefined) {
+            console.warn("Earth is not downloaded yet!");
             return;
         }
 
-        for (let Y = 0; Y < 4; Y++) {
-            for (let X = 0; X < 4; X++) {
-                const tile = document.getElementById("t_" + X + "_" + Y);
-                tile.setAttribute("src", tiles[Y * 4 + X]);
-            }
-        }
-
-        document.getElementById("earth").style.visibility = "visible";
+        const earth = document.getElementById("earth");
+        earth.setAttribute("src", earthData);
+        earth.style.visibility = "visible";
     });
 }
 

@@ -6,22 +6,20 @@ document.addEventListener("DOMContentLoaded", function () { (async () => {
 
     for (;;) {
         try {
-            console.log("BACK downloading...");
+            console.log("Downloading latest image...");
+
             const
-                blobs = await downloadLatestTiles(),
-                tiles = []
+                blob = await downloadLatest(),
+                data = await(encode(blob))
             ;
 
-            for (let i = 0; i < 16; i++)
-                tiles.push(await encode(blobs[i]));
-
             await chrome.storage.local.set({
-                "tiles": tiles
+                "earthData": data
             });
 
-            console.log("BACK SAVED!");
+            console.log("Downloaded latest image!");
 
-            await sleep(5 * 1000);
+            await sleep(10 * 60 * 1000);
         } catch(err) {
             console.error("ERROR", err);
         }
@@ -29,4 +27,16 @@ document.addEventListener("DOMContentLoaded", function () { (async () => {
 
 })(); });
 
-
+/**
+ * Encodes a blob as base64 data URL.
+ *
+ * @param blob
+ */
+async function encode(blob) {
+    return await new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onloadend = () => resolve(reader.result);
+        reader.onerror = reject;
+        reader.readAsDataURL(blob);
+    });
+}

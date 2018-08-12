@@ -53,28 +53,17 @@ main blockquote #author {
     font-style: normal;
 }
 
-div#earth {
+img#earth {
     position: absolute;
-    width: 600px;
-    height: 600px;
-    /* Enable for debugging:
-    background-color: blue;
-    */
-    top: calc(50vh - 600px / 2);
-    left: calc(50vw - 600px / 2);
+    width: 601px;
+    height: 601px;
+    top: calc(50vh - 601px / 2);
+    left: calc(50vw - 601px / 2);
 
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-template-rows: repeat(4, auto);
     z-index: -1;
 
     /* hide earth until it's rendered */
     visibility: hidden;
-}
-
-div#earth img {
-    width: calc(600px / 4);
-    height: calc(600px / 4);
 }
 
 footer#footer {

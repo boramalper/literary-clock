@@ -10,8 +10,7 @@
   },
 
   "permissions": [
-    "http://himawari8.nict.go.jp/img/D531106/*",
-    "http://himawari8-dl.nict.go.jp/himawari8/img/D531106/latest.json",
+    "https://www.data.jma.go.jp/mscweb/data/himawari/img/fd_/",
     "storage",
     "unlimitedStorage"
   ],
