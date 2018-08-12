@@ -1,3 +1,9 @@
+.noselect {
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
 body {
     background-color: black;
     color: silver;
@@ -31,6 +37,11 @@ main blockquote {
     font-kerning: normal;
 }
 
+main blockquote p span.time {
+    font-weight: bold;
+    color: whitesmoke;
+}
+
 main blockquote footer {
     display: flex;
     float: right;
@@ -40,15 +51,15 @@ main blockquote footer {
 
 main blockquote #author {
     font-style: normal;
-    font-weight: bold;
-    color: whitesmoke;
 }
 
 div#earth {
     position: absolute;
     width: 600px;
     height: 600px;
+    /* Enable for debugging:
     background-color: blue;
+    */
     top: calc(50vh - 600px / 2);
     left: calc(50vw - 600px / 2);
 
@@ -56,6 +67,9 @@ div#earth {
     grid-template-columns: repeat(4, auto);
     grid-template-rows: repeat(4, auto);
     z-index: -1;
+
+    /* hide earth until it's rendered */
+    visibility: hidden;
 }
 
 div#earth img {

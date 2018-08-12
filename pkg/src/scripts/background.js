@@ -1,15 +1,11 @@
 "use strict";
 
 document.addEventListener("DOMContentLoaded", function () { (async () => {
-    console.log("BACK ANAN");
+    // https://stackoverflow.com/a/39027151/4466589
+    const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
-    try {
-        // https://stackoverflow.com/a/39027151/4466589
-        const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
-
-        // await encode(tiles[Y * 4 + X])
-
-        for (;;) {
+    for (;;) {
+        try {
             console.log("BACK downloading...");
             const
                 blobs = await downloadLatestTiles(),
@@ -25,11 +21,12 @@ document.addEventListener("DOMContentLoaded", function () { (async () => {
 
             console.log("BACK SAVED!");
 
-            await sleep(10 * 60 * 1000);
+            await sleep(5 * 1000);
+        } catch(err) {
+            console.error("ERROR", err);
         }
-    } catch(err) {
-        console.log("ERROR", err);
     }
+
 })(); });
 
 
