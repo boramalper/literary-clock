@@ -9,12 +9,15 @@ document.addEventListener("DOMContentLoaded", function () { (async () => {
             console.log("Downloading latest image...");
 
             const
-                blob = await downloadLatest(),
-                data = await(encode(blob))
+                [blob, time] = await downloadLatest(),
+                data         = await(encode(blob))
             ;
 
             await chrome.storage.local.set({
-                "earthData": data
+                "earth": {
+                    data   : data,
+                    utcTime: time,
+                }
             });
 
             console.log("Downloaded latest image!");

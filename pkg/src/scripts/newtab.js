@@ -1,8 +1,12 @@
 "use strict";
 
+// [hours, minutes]
+let lastUpdated = null;
+
+
 document.addEventListener("DOMContentLoaded", function () {
     chrome.storage.onChanged.addListener(function (changes, areaName) {
-        if (areaName === "local" && "earthData" in changes) {
+        if (areaName === "local" && "earth" in changes) {
             redraw();
         }
     });
@@ -14,40 +18,53 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function clockLoop() {
     const
-        p      = document.querySelector("blockquote > p"),
-        work   = document.querySelector("#work"),
-        author = document.querySelector("#author")
-    ;
-    const
         now     = new Date(),
         hours   = now.getHours(),
-        minutes = now.getMinutes(),
-        closestMinutes = findClosest(times, hours * 60 + minutes)
+        minutes = now.getMinutes()
+
     ;
-    console.log("closest", hours, minutes, closestMinutes);
 
-    const res = sample(tqMap[closestMinutes]);
-    console.log("res", res);
+    // Return early if we are still in the same HOUR:MINUTE
+    if (lastUpdated && lastUpdated[0] === hours && lastUpdated[1] === minutes) {
+        // don't forget to loop!
+        setTimeout(clockLoop, 1 * 1000);
+        return;
+    }
 
-    p.innerHTML      = res.quote;
-    work.innerText   = res.work;
-    author.innerText = res.author;
+    const
+        main           = document.getElementsByTagName("main")[0],
+        p              = document.querySelector("blockquote > p"),
+        work           = document.querySelector("#work"),
+        author         = document.querySelector("#author"),
+        closestMinutes = findClosest(times, hours * 60 + minutes),
+        res            = sample(tqMap[closestMinutes])
+    ;
+
+    p.innerHTML           = res.quote;
+    work.innerText        = res.work;
+    author.innerText      = res.author;
+    main.style.visibility = "visible";
+
+    lastUpdated = [hours, minutes];
 
     // loop!
-    setTimeout(clockLoop, 60 * 1000);
+    setTimeout(clockLoop, 1 * 1000);
 }
 
 
 function redraw() {
-    chrome.storage.local.get("earthData", function ({earthData}) {
-        if (earthData === undefined) {
+    chrome.storage.local.get("earth", function ({earth}) {
+        if (earth === undefined) {
             console.warn("Earth is not downloaded yet!");
             return;
         }
 
-        const earth = document.getElementById("earth");
-        earth.setAttribute("src", earthData);
-        earth.style.visibility = "visible";
+        console.log("Earth", earth);
+
+        const earthImg = document.getElementById("earth");
+        earthImg.setAttribute("src", earth.data);
+        earthImg.setAttribute("alt", "The Earth, updated on " + earth.utcTime + " UTC");
+        earthImg.style.visibility = "visible";
     });
 }
 

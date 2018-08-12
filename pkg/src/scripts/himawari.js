@@ -10,7 +10,7 @@ async function downloadLatest() {
 
     console.log("calculated date", hoursFormatted, minutesFormatted);
 
-    return await fetch(url).then((response) => response.blob());
+    return [await fetch(url).then((response) => response.blob()), hoursFormatted + ":" + minutesFormatted];
 }
 
 

@@ -1,11 +1,19 @@
 .noselect {
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* Internet Explorer/Edge */
-    user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+    /* Firefox */
+    -moz-user-select: none;
+    /* Internet Explorer/Edge */
+    -ms-user-select: none;
+    /* Non-prefixed version, currently supported by Chrome and Opera */
+    user-select: none;
 }
 
 body {
-    background-color: black;
+    font-family: 'Lato', sans-serif;
+
+    /* Do NOT change background-color to black or any other color! #010101 is
+     * THE background colour of the satellite imagery.
+     */
+    background-color: #010101;
     color: silver;
 
     margin: 0;
@@ -25,6 +33,9 @@ main {
     max-width: 500px;
 
     margin-left: 40px;
+
+    /* hide the quote until it's rendered */
+    visibility: hidden;
 }
 
 main blockquote {
@@ -70,7 +81,8 @@ footer#footer {
     position: absolute;
     font-size: 12px;
     line-height: 12px;
-    top: calc(100vh - 12px - 2px);  /* (- 2px) for the descender line */
+    /* (- 2px) for the descender line (i.e. "tails" of letters such as g, y) */
+    top: calc(100vh - 12px - 2px);
     width: calc(100vw - 1em / 2);
     padding-right: calc(1em / 2);
     text-align: right;
