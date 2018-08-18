@@ -10,7 +10,16 @@ async function downloadLatest() {
 
     console.log("calculated date", hoursFormatted, minutesFormatted);
 
-    return [await fetch(url).then((response) => response.blob()), hoursFormatted + ":" + minutesFormatted];
+    return [
+        await fetch(url).then((response) => {
+            if (response.ok) {
+                return response.blob();
+            }
+
+            throw new Error("Could NOT download the latest image! (" + response.status + " - " + response.statusText + ")");
+        }),
+        hoursFormatted + ":" + minutesFormatted
+    ];
 }
 
 
@@ -20,7 +29,12 @@ function calcDate() {
         hours   = now.getHours(),
         minutes = now.getMinutes()
     ;
-    return [hours - 10, minutes - (minutes % 10)];
+
+    // Himawari-8 satellite observes the UTC+10 timezone, so to calculate which image to fetch, we subtract 10 from
+    // the current time (hour) to calculate its equivalent in UTC timezone.
+    //
+    // To prevent "negative hours", we add 24 and mod 24.
+    return [(hours - 10 + 24) % 24, minutes - (minutes % 10)];
 }
 
 

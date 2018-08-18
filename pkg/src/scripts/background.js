@@ -24,7 +24,8 @@ document.addEventListener("DOMContentLoaded", function () { (async () => {
 
             await sleep(10 * 60 * 1000);
         } catch(err) {
-            console.error("ERROR", err);
+            console.error("Background Error", err);
+            await sleep(1 * 60 * 1000);  // Wait a minute before retrying
         }
     }
 
