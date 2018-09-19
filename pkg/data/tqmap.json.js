@@ -855,7 +855,7 @@ const tqMap = {
         },
         {
             "author": "David Foster Wallace",
-            "quote": "Inc, I tried to pull her off about 0<span class=\"time\">230</span>, and there was this fucking\u2026 sound.",
+            "quote": "Inc, I tried to pull her off about <span class=\"time\">0230</span>, and there was this fucking\u2026 sound.",
             "work": "Infinite Jest"
         },
         {
@@ -1011,7 +1011,7 @@ const tqMap = {
         },
         {
             "author": "David Foster Wallace",
-            "quote": "Schact clears his mouth and swallows mightily. 'Tavis can't even regrout tile in the locker room without calling a Community meeting or appointing a committee. The Regrouting Committee's been dragging along since may. Suddenly they're pulling secret 0<span class=\"time\">300</span> milk-switches? It doesn't ring true, Jim.",
+            "quote": "Schact clears his mouth and swallows mightily. 'Tavis can't even regrout tile in the locker room without calling a Community meeting or appointing a committee. The Regrouting Committee's been dragging along since may. Suddenly they're pulling secret <span class=\"time\">0300</span> milk-switches? It doesn't ring true, Jim.",
             "work": "Infinite Jest"
         },
         {
@@ -1490,12 +1490,12 @@ const tqMap = {
         },
         {
             "author": "David Foster Wallace",
-            "quote": "Hester Thrale undulates in in a false fox jacket at 2330 as usual even though she has to be up at like 0<span class=\"time\">430</span> for the breakfast shift at the Provident Nursing Home and sometimes eats breakfast with Gately, both their faces nodding perilously close to their Frosted Flakes.",
+            "quote": "Hester Thrale undulates in in a false fox jacket at 2330 as usual even though she has to be up at like <span class=\"time\">0430</span> for the breakfast shift at the Provident Nursing Home and sometimes eats breakfast with Gately, both their faces nodding perilously close to their Frosted Flakes.",
             "work": "Infinite Jest"
         },
         {
             "author": "David Foster Wallace",
-            "quote": "Tonight Clenette H. and the deeply whacked out Yolanda W. come back in from Footprints around 2315 in purple skirts and purple lipstick and ironed hair, tottering on heels and telling each other what a wicked time they just had. Hester Thrale undulates in in a false fox jacket at 2330 as usual even though she has to be up at like 0<span class=\"time\">430</span> for the breakfast shift at the Provident Nursing Home and sometimes eats breakfast with Gately, both their faces nodding perilously close to their Frosted Flakes.",
+            "quote": "Tonight Clenette H. and the deeply whacked out Yolanda W. come back in from Footprints around 2315 in purple skirts and purple lipstick and ironed hair, tottering on heels and telling each other what a wicked time they just had. Hester Thrale undulates in in a false fox jacket at 2330 as usual even though she has to be up at like <span class=\"time\">0430</span> for the breakfast shift at the Provident Nursing Home and sometimes eats breakfast with Gately, both their faces nodding perilously close to their Frosted Flakes.",
             "work": "Infinite Jest"
         }
     ],
@@ -1605,7 +1605,7 @@ const tqMap = {
     "299": [
         {
             "author": "David Foster Wallace",
-            "quote": "The whole place smells like death no matter what the fuck you do. Gately gets to the shelter at 0<span class=\"time\">459</span>.9h and just shuts his head off as if his head had a control switch.",
+            "quote": "The whole place smells like death no matter what the fuck you do. Gately gets to the shelter at <span class=\"time\">0459</span>.9h and just shuts his head off as if his head had a control switch.",
             "work": "Infinite Jest"
         }
     ],
@@ -2806,7 +2806,7 @@ const tqMap = {
     "512": [
         {
             "author": "David Foster Wallace",
-            "quote": "'Does anybody know the time a little more exactly is what I'm wondering, Don, since Day doesn't.' Gately checks his cheap digital, head still hung over the sofa's arm. 'I got 0<span class=\"time\">832</span>:14, 15, 16, Randy.' ''ks a lot, D.G. man.'",
+            "quote": "'Does anybody know the time a little more exactly is what I'm wondering, Don, since Day doesn't.' Gately checks his cheap digital, head still hung over the sofa's arm. 'I got <span class=\"time\">0832</span>:14, 15, 16, Randy.' ''ks a lot, D.G. man.'",
             "work": "Infinite Jest"
         },
         {
@@ -3189,7 +3189,7 @@ const tqMap = {
     "555": [
         {
             "author": "Tom Clancy",
-            "quote": "\"Great!\" Jones commented. \"I've never seen it do that before. That's all right. Okay.\" Jones pulled a handful of pencils from his back pocket. \"Now, I got the contact first at 0<span class=\"time\">915</span> or so, and the bearing was about two-six-nine.\"",
+            "quote": "\"Great!\" Jones commented. \"I've never seen it do that before. That's all right. Okay.\" Jones pulled a handful of pencils from his back pocket. \"Now, I got the contact first at <span class=\"time\">0915</span> or so, and the bearing was about two-six-nine.\"",
             "work": "The Hunt for Red October"
         },
         {
