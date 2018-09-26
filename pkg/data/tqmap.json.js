@@ -7,7 +7,7 @@ const tqMap = {
         },
         {
             "author": "James Joyce",
-            "quote": "\"But wait till I tell you,\" he said. :We had a <span class=\"time\">midnight</span> lunch too after all the jollification and when we sallied forth it was blue o'clock the morning after the night before\"",
+            "quote": "\"But wait till I tell you,\" he said. We had a <span class=\"time\">midnight</span> lunch too after all the jollification and when we sallied forth it was blue o'clock the morning after the night before\"",
             "work": "Ulysses"
         },
         {
@@ -443,7 +443,7 @@ const tqMap = {
         },
         {
             "author": "William Shakespeare",
-            "quote": "Last night of all, When yon same star that's westward from the pole Had made his course t'illume that part of heaven Where now it burns, Marcellus and myself, The bell then beating <span class=\"time\">one </span>-",
+            "quote": "Last night of all, When yon same star that's westward from the pole Had made his course t'illume that part of heaven Where now it burns, Marcellus and myself, The bell then beating <span class=\"time\">one</span> -",
             "work": "Hamlet"
         },
         {
@@ -855,7 +855,7 @@ const tqMap = {
         },
         {
             "author": "David Foster Wallace",
-            "quote": "Inc, I tried to pull her off about 0<span class=\"time\">230</span>, and there was this fucking\u2026 sound.",
+            "quote": "Inc, I tried to pull her off about <span class=\"time\">0230</span>, and there was this fucking\u2026 sound.",
             "work": "Infinite Jest"
         },
         {
@@ -1011,7 +1011,7 @@ const tqMap = {
         },
         {
             "author": "David Foster Wallace",
-            "quote": "Schact clears his mouth and swallows mightily. 'Tavis can't even regrout tile in the locker room without calling a Community meeting or appointing a committee. The Regrouting Committee's been dragging along since may. Suddenly they're pulling secret 0<span class=\"time\">300</span> milk-switches? It doesn't ring true, Jim.",
+            "quote": "Schact clears his mouth and swallows mightily. 'Tavis can't even regrout tile in the locker room without calling a Community meeting or appointing a committee. The Regrouting Committee's been dragging along since may. Suddenly they're pulling secret <span class=\"time\">0300</span> milk-switches? It doesn't ring true, Jim.",
             "work": "Infinite Jest"
         },
         {
@@ -1490,12 +1490,12 @@ const tqMap = {
         },
         {
             "author": "David Foster Wallace",
-            "quote": "Hester Thrale undulates in in a false fox jacket at 2330 as usual even though she has to be up at like 0<span class=\"time\">430</span> for the breakfast shift at the Provident Nursing Home and sometimes eats breakfast with Gately, both their faces nodding perilously close to their Frosted Flakes.",
+            "quote": "Hester Thrale undulates in in a false fox jacket at 2330 as usual even though she has to be up at like <span class=\"time\">0430</span> for the breakfast shift at the Provident Nursing Home and sometimes eats breakfast with Gately, both their faces nodding perilously close to their Frosted Flakes.",
             "work": "Infinite Jest"
         },
         {
             "author": "David Foster Wallace",
-            "quote": "Tonight Clenette H. and the deeply whacked out Yolanda W. come back in from Footprints around 2315 in purple skirts and purple lipstick and ironed hair, tottering on heels and telling each other what a wicked time they just had. Hester Thrale undulates in in a false fox jacket at 2330 as usual even though she has to be up at like 0<span class=\"time\">430</span> for the breakfast shift at the Provident Nursing Home and sometimes eats breakfast with Gately, both their faces nodding perilously close to their Frosted Flakes.",
+            "quote": "Tonight Clenette H. and the deeply whacked out Yolanda W. come back in from Footprints around 2315 in purple skirts and purple lipstick and ironed hair, tottering on heels and telling each other what a wicked time they just had. Hester Thrale undulates in in a false fox jacket at 2330 as usual even though she has to be up at like <span class=\"time\">0430</span> for the breakfast shift at the Provident Nursing Home and sometimes eats breakfast with Gately, both their faces nodding perilously close to their Frosted Flakes.",
             "work": "Infinite Jest"
         }
     ],
@@ -1605,7 +1605,7 @@ const tqMap = {
     "299": [
         {
             "author": "David Foster Wallace",
-            "quote": "The whole place smells like death no matter what the fuck you do. Gately gets to the shelter at 0<span class=\"time\">459</span>.9h and just shuts his head off as if his head had a control switch.",
+            "quote": "The whole place smells like death no matter what the fuck you do. Gately gets to the shelter at <span class=\"time\">0459</span>.9h and just shuts his head off as if his head had a control switch.",
             "work": "Infinite Jest"
         }
     ],
@@ -1925,7 +1925,7 @@ const tqMap = {
         },
         {
             "author": "Knut Hamsun",
-            "quote": "Lying awake in my attic room, i hear a clock strike <span class=\"time\">six </span>downstairs. It was fairly light and people were beginning to walk up and down the stairs...- i heard the clock strike eight downstairs before i rose and got dressed... I looked up - the clock tower of our saviour's showed ten.",
+            "quote": "Lying awake in my attic room, i hear a clock strike <span class=\"time\">six</span> downstairs. It was fairly light and people were beginning to walk up and down the stairs...- i heard the clock strike eight downstairs before i rose and got dressed... I looked up - the clock tower of our saviour's showed ten.",
             "work": "Hunger"
         },
         {
@@ -1940,7 +1940,7 @@ const tqMap = {
         },
         {
             "author": "Giuseppe Tomasi di Lampedusa",
-            "quote": "The ball went on for a long time, until <span class=\"time\">six </span>in the morning; all were exhausted and wishing they had been in bed for at least three hours; but to leave early was like proclaiming the party a failure and offending the host and hostess who had taken such a lot of trouble, poor dears.",
+            "quote": "The ball went on for a long time, until <span class=\"time\">six</span> in the morning; all were exhausted and wishing they had been in bed for at least three hours; but to leave early was like proclaiming the party a failure and offending the host and hostess who had taken such a lot of trouble, poor dears.",
             "work": "The Leopard"
         }
     ],
@@ -2573,7 +2573,7 @@ const tqMap = {
         },
         {
             "author": "A E Housman",
-            "quote": "So here I'll watch the night and wait To see the morning shine, When he will hear the stroke of <span class=\"time\">eight </span>And not the stroke of nine;",
+            "quote": "So here I'll watch the night and wait To see the morning shine, When he will hear the stroke of <span class=\"time\">eight</span> And not the stroke of nine;",
             "work": "A shropshire Lad"
         },
         {
@@ -2806,7 +2806,7 @@ const tqMap = {
     "512": [
         {
             "author": "David Foster Wallace",
-            "quote": "'Does anybody know the time a little more exactly is what I'm wondering, Don, since Day doesn't.' Gately checks his cheap digital, head still hung over the sofa's arm. 'I got 0<span class=\"time\">832</span>:14, 15, 16, Randy.' ''ks a lot, D.G. man.'",
+            "quote": "'Does anybody know the time a little more exactly is what I'm wondering, Don, since Day doesn't.' Gately checks his cheap digital, head still hung over the sofa's arm. 'I got <span class=\"time\">0832</span>:14, 15, 16, Randy.' ''ks a lot, D.G. man.'",
             "work": "Infinite Jest"
         },
         {
@@ -2989,7 +2989,7 @@ const tqMap = {
         },
         {
             "author": "Charles Dickens",
-            "quote": "On the third morning after their arrival, just as all the clocks in the city were striking <span class=\"time\">nine </span>individually, and somewhere about nine hundred and ninety-nine collectively, Sam was taking the air in George Yard, when a queer sort of fresh painted vehicle drove up, out of which there jumped with great agility, throwing the reins to a stout man who sat beside him, a queer sort of gentleman, who seemed made for the vehicle, and the vehicle for him.",
+            "quote": "On the third morning after their arrival, just as all the clocks in the city were striking <span class=\"time\">nine</span> individually, and somewhere about nine hundred and ninety-nine collectively, Sam was taking the air in George Yard, when a queer sort of fresh painted vehicle drove up, out of which there jumped with great agility, throwing the reins to a stout man who sat beside him, a queer sort of gentleman, who seemed made for the vehicle, and the vehicle for him.",
             "work": "The Pickwick Papers"
         },
         {
@@ -3004,7 +3004,7 @@ const tqMap = {
         },
         {
             "author": "Joseph Roth",
-            "quote": "A fly buzzed, the wall clock began to strike. After the <span class=\"time\">nine </span>golden strokes faded, the district captain began. \"How is Herr Colonel Marek?\" \"Thank you, Pap\u00e1, he's fine.\" \"Still weak in geometry?\" \"Thank you, Pap\u00e1, a little better.\" \"Read any books?\" \"Yessir, Pap\u00e1.\"",
+            "quote": "A fly buzzed, the wall clock began to strike. After the <span class=\"time\">nine</span> golden strokes faded, the district captain began. \"How is Herr Colonel Marek?\" \"Thank you, Pap\u00e1, he's fine.\" \"Still weak in geometry?\" \"Thank you, Pap\u00e1, a little better.\" \"Read any books?\" \"Yessir, Pap\u00e1.\"",
             "work": "The Radetzky March"
         },
         {
@@ -3039,7 +3039,7 @@ const tqMap = {
         },
         {
             "author": "Shakespeare",
-            "quote": "The clock struck <span class=\"time\">nine </span>when I did send the nurse; In half an hour she promised to return. Perchance she cannot meet him: that's not so.",
+            "quote": "The clock struck <span class=\"time\">nine</span> when I did send the nurse; In half an hour she promised to return. Perchance she cannot meet him: that's not so.",
             "work": "Romeo and Juliet"
         },
         {
@@ -3189,7 +3189,7 @@ const tqMap = {
     "555": [
         {
             "author": "Tom Clancy",
-            "quote": "\"Great!\" Jones commented. \"I've never seen it do that before. That's all right. Okay.\" Jones pulled a handful of pencils from his back pocket. \"Now, I got the contact first at 0<span class=\"time\">915</span> or so, and the bearing was about two-six-nine.\"",
+            "quote": "\"Great!\" Jones commented. \"I've never seen it do that before. That's all right. Okay.\" Jones pulled a handful of pencils from his back pocket. \"Now, I got the contact first at <span class=\"time\">0915</span> or so, and the bearing was about two-six-nine.\"",
             "work": "The Hunt for Red October"
         },
         {
@@ -3460,7 +3460,7 @@ const tqMap = {
         },
         {
             "author": "Virginia Woolf",
-            "quote": "For some seconds the light went on becoming brighter and brighter, and she saw everything more and more clearly and the clock ticked louder and louder until there was a terrific explosion right in her ear. Orlando leapt as if she had been violently struck on the head. Ten times she was struck. In fact it was <span class=\"time\">ten </span>o'clock in the morning. It was the eleventh of October. It was 1928. It was the present moment.",
+            "quote": "For some seconds the light went on becoming brighter and brighter, and she saw everything more and more clearly and the clock ticked louder and louder until there was a terrific explosion right in her ear. Orlando leapt as if she had been violently struck on the head. Ten times she was struck. In fact it was <span class=\"time\">ten</span> o'clock in the morning. It was the eleventh of October. It was 1928. It was the present moment.",
             "work": "Orlando"
         },
         {
@@ -3867,7 +3867,7 @@ const tqMap = {
         },
         {
             "author": "Virginia Woolf",
-            "quote": "As they looked the whole world became perfectly silent, and a flight of gulls crossed the sky, first one gull leading, then another, and in this extraordinary silence and peace, in this pallor, in this purity, bells struck <span class=\"time\">eleven </span>times the sound fading up there among the gulls.",
+            "quote": "As they looked the whole world became perfectly silent, and a flight of gulls crossed the sky, first one gull leading, then another, and in this extraordinary silence and peace, in this pallor, in this purity, bells struck <span class=\"time\">eleven</span> times the sound fading up there among the gulls.",
             "work": "Mrs. Dalloway"
         },
         {
@@ -3892,7 +3892,7 @@ const tqMap = {
         },
         {
             "author": "Patsy Hickman",
-            "quote": "My sister is terrified that I might write and tell all the family secrets. Why do I feel like a rebel, like an iconoclast? I am only trying to do a writing class, what is wrong with that? I keep telling myself that once in the car I will be fine, I can listen to Radio Four Woman\u2019s Hour and that will take me till <span class=\"time\">eleven </span>o\u2019clock when the class starts.",
+            "quote": "My sister is terrified that I might write and tell all the family secrets. Why do I feel like a rebel, like an iconoclast? I am only trying to do a writing class, what is wrong with that? I keep telling myself that once in the car I will be fine, I can listen to Radio Four Woman\u2019s Hour and that will take me till <span class=\"time\">eleven</span> o\u2019clock when the class starts.",
             "work": "The Saints"
         },
         {
@@ -4365,7 +4365,7 @@ const tqMap = {
         },
         {
             "author": "Thomas Hardy",
-            "quote": "The Oxen Christmas Eve, and <span class=\"time\">twelve </span>of the clock. \"Now they are all on their knees,\" An elder said as we sat in a flock By the embers in hearthside ease. We pictured the meek mild creatures where They dwelt in their strawy pen, Nor did it occur to one of us there To doubt they were kneeling then. So fair a fancy few would weave In these years! Yet, I feel, If someone said on Christmas Eve, \"Come; see the oxen kneel \"In the lonely barton by yonder coomb Our childhood used to know,\" I should go with him in the gloom, Hoping it might be so.",
+            "quote": "The Oxen Christmas Eve, and <span class=\"time\">twelve</span> of the clock. \"Now they are all on their knees,\" An elder said as we sat in a flock By the embers in hearthside ease. We pictured the meek mild creatures where They dwelt in their strawy pen, Nor did it occur to one of us there To doubt they were kneeling then. So fair a fancy few would weave In these years! Yet, I feel, If someone said on Christmas Eve, \"Come; see the oxen kneel \"In the lonely barton by yonder coomb Our childhood used to know,\" I should go with him in the gloom, Hoping it might be so.",
             "work": "The Oxen"
         },
         {
@@ -5589,7 +5589,7 @@ const tqMap = {
     "957": [
         {
             "author": "Arthur Conan Doyle",
-            "quote": "It was <span class=\"time\">close upon four </span>before the door opened, and a drunken-looking groom, ill-kempt and side-whiskered with an inflamed face and disreputable clothes, walked into the room. Accustomed as I was to my friend's amazing powers in the use of disguises, I had to look three times before I was certain that it was indeed he.",
+            "quote": "It was <span class=\"time\">close upon four</span> before the door opened, and a drunken-looking groom, ill-kempt and side-whiskered with an inflamed face and disreputable clothes, walked into the room. Accustomed as I was to my friend's amazing powers in the use of disguises, I had to look three times before I was certain that it was indeed he.",
             "work": "The Adventures of Sherlock Holmes"
         }
     ],
@@ -6692,7 +6692,7 @@ const tqMap = {
         },
         {
             "author": "Stephenie Meyer",
-            "quote": "Edward had been allowed to see me only from <span class=\"time\">seven </span>till nine-thirty pm, always inside the confines of my home and under the supervision of my dad's unfailingly crabby glare.",
+            "quote": "Edward had been allowed to see me only from <span class=\"time\">seven</span> till nine-thirty pm, always inside the confines of my home and under the supervision of my dad's unfailingly crabby glare.",
             "work": "New Moon"
         },
         {
@@ -7608,7 +7608,7 @@ const tqMap = {
         },
         {
             "author": "Robert Louis Stevenson",
-            "quote": "I could not doubt that this was the BLACK SPOT; and taking it up, I found writ<span class=\"time\">ten </span>on the other side, in a very good, clear hand, this short message: \"You have till ten tonight.\"",
+            "quote": "I could not doubt that this was the BLACK SPOT; and taking it up, I found writ<span class=\"time\">ten</span> on the other side, in a very good, clear hand, this short message: \"You have till ten tonight.\"",
             "work": "Treasure Island"
         },
         {
@@ -7623,7 +7623,7 @@ const tqMap = {
         },
         {
             "author": "David Mitchell",
-            "quote": "The grandfather clock in the State Room strikes <span class=\"time\">ten </span>times.",
+            "quote": "The grandfather clock in the State Room strikes <span class=\"time\">ten</span> times.",
             "work": "The Thousand Autumns of Jacob de Zoet"
         },
         {
@@ -8001,7 +8001,7 @@ const tqMap = {
     "1395": [
         {
             "author": "Helen Fielding",
-            "quote": "<span class=\"time\">11.15pm. </span>Humph. Mum just rang \"Sorry, darling. It isn't Newsnigtht, it's Breakfast News tomorrow. Could you set it for seven o'clock tomorrow morning, BBC1?\"",
+            "quote": "<span class=\"time\">11.15pm.</span> Humph. Mum just rang \"Sorry, darling. It isn't Newsnigtht, it's Breakfast News tomorrow. Could you set it for seven o'clock tomorrow morning, BBC1?\"",
             "work": "Bridget Jones's Diary"
         },
         {
