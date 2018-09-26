@@ -39,7 +39,7 @@ def main():
 		times_file.write("const times = Object.keys(tqMap).map((t) => +t).sort((a, b) => a - b);\n")
 
 
-def emph(bit, whole, start_tag='<span class="time">', end_tag='</span>'):
+def emph(bit, whole, start_tag='<time>', end_tag='</time>'):
 	ss = whole.split(bit, 1)
 	return ss[0] + start_tag + bit + end_tag + ss[1]
 
