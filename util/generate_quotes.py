@@ -34,7 +34,7 @@ def main():
 
 	with open("pkg/data/tqmap.json.js", "w") as times_file:
 		times_file.write("const tqMap = ")
-		json.dump(times, times_file, indent=4)
+		json.dump(times, times_file, indent=4, sort_keys=True)
 		times_file.write(";\n\n")
 		times_file.write("const times = Object.keys(tqMap).map((t) => +t).sort((a, b) => a - b);\n")
 
