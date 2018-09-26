@@ -48,7 +48,7 @@ main blockquote {
     font-kerning: normal;
 }
 
-main blockquote p span.time {
+main blockquote p time {
     font-weight: bold;
     color: whitesmoke;
 }
