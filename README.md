@@ -9,6 +9,14 @@ Get it for:
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/literary-clock/)
 - [Chrome/Chromium](https://chrome.google.com/webstore/detail/literary-clock/klimjjoolmemiionkhfgaligdiioehkg)
 
+## FAQ
+
+- **How to show bookmarks bar on Chromium/Chrome?**
+
+  <key>Ctrl</key> + <key>Shift</key> + b on Windows, Linux and Chrome OS,
+  
+  <key>⌘</key> + <key>Shift</key> + b on macOS.
+
 ## Acknowledgements:
 
 - **Inspired by:**
